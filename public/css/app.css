@@ -1,0 +1,266 @@
+
+  /* app.blade.php*/
+
+  /* Overall layout styles */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/* Header styles */
+header {
+    background-color: #f3f3f3;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+header p {
+    margin: 10px 0 0;
+    color: #666;
+    font-size: 1rem;
+}
+header .logout-form {
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+/* Home page styles */
+.projects-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.favorite-projects, .my-projects {
+    flex: 1;
+}
+.favorite-project, .my-project {
+    text-align: center;
+}
+.upcoming-tasks {
+    margin-top: 40px;
+}
+.task {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.task .task-title {
+    font-weight: bold;
+}
+.task .task-meta {
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+
+
+/* login.blade.php*/
+
+form.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+form.card h2 {
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+form.card .form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+form.card .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+/* Adjust Bootstrap's Button Colors */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #0056b3;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #003d82;
+}
+
+/* Additional Utility Styles */
+.text-center {
+  text-align: center;
+}
+.shadow-sm {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+  
+
+/*home.blade.php */
+
+.projects-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.favorite-projects, .my-projects {
+  flex: 1;
+}
+.favorite-project, .my-project {
+  text-align: center;
+}
+.upcoming-tasks {
+  margin-top: 40px;
+}
+.task {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.task .task-title {
+  font-weight: bold;
+}
+.task .task-meta {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Project Deatails*/
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-actions button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.favorite {
+  background-color: black;
+  color: white;
+}
+
+.project-info {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.project-info div {
+  flex: 1;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tasks .search-task {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-list .task {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.create-task {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.create-task input,
+.create-task button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.create-task button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.create-task .priority label {
+  font-size: 0.9rem;
+  margin-right: 20px;
+}
