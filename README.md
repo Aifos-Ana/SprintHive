@@ -48,3 +48,6 @@ If you would like to contribute to **SprintHive**, please fork the repository an
 ## Contact 
 
 For questions or inquiries, feel free to reach out to the project members ;)
+
+<hr>
+> Project developed for Database and Web Applications Laboratory course @FEUP
